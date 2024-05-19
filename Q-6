@@ -8,21 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-
     <script>
 
-        function CircleArea(r) 
+        function TriangleArea(b, h) 
         {
-            let pi = 3.14;
-            return pi * r * r;
+            return 0.5 * b * h;
         }
 
-        let r = 15;
-        let area = CircleArea(r);
+        let b = 20;
+        let h = 12;
+        let area = TriangleArea(b, h);
 
-        console.log("The area of the circle Area " + r + " is " + area);
+        console.log("The area of the triangle with base " + b + " and height " + h + " is " + area);
 
     </script>
-    
+
 </body>
 </html>
