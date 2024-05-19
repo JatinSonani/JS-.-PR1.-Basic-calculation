@@ -1,0 +1,28 @@
+/----- Q-6. Write a javascript Program to find triangle area.(compulsory user input)(formula  0.5 * b * h) -----\
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        function CircleArea(r) 
+        {
+            let pi = 3.14;
+            return pi * r * r;
+        }
+
+        let r = 15;
+        let area = CircleArea(r);
+
+        console.log("The area of the circle Area " + r + " is " + area);
+
+    </script>
+    
+</body>
+</html>
